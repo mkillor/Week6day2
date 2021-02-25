@@ -25,7 +25,7 @@ public class Main {
             averageValue = Arithmetic.average(someValues);
         }
         catch (Exception e) {
-            System.out.println("Encountered an exception: " + e.getLocalizedMessage());
+            System.out.println("Encountered an exception: " + e);
         }
         System.out.println(averageValue);
     }
